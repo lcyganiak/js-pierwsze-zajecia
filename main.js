@@ -112,8 +112,30 @@ for(let i = 0; i < filmy.length; i++) {
 }
 
 
+if(2 == '2') {
+    console.log( 'super')
+} 
 
+if(2 === '2') {
+    console.log('jak by byłą prawda')
+} else {
+    console.log('jak warunek nie spełniony ')
+}
 
+const numbers = [1,2,3,4,5,6,7,8,9,10, 12,44,658]
+// tylko liczby parzyste z tablicy numbers
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 === 0) {
+        console.log( 'Liczba parzysta ' + numbers[i])
+    }
+}
+// tylko liczby większe od 5  z tablicy numbers
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] > 5) {
+        console.log(numbers[i])
+    }
+}
 
+// 14 % 3 = 4 reszty 2  
 
-
+// 18 % 2 = 9 reszty 0
